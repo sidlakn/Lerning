@@ -35,18 +35,18 @@
     //}
 
 
-//for(var i = 10; i <=20; i++) {
-//if(i % 2 == 0)
-  //    continue;
+for(var i = 10; i <=20; i++) {
+if(i % 2 == 0)
+      continue;
 
-    //  console.log(i);
-    //}
+      console.log(i);
+    }
 
 
-  var arr = [5, 7, 3, 8, 91, "stroka"];
+  //var arr = [5, 7, 3, 8, 91, "stroka"];
 
-for(var i=0; i<arr.length; i++){
-arr[i] *=2;
+//for(var i=0; i<arr.length; i++){
+//arr[i] *=2;
 
-  console.log("елемент " + (i + 1) ": " +arr[i];
-}
+  console.log("елемент " + (i + 1) ": " +arr)[i];
+//}
