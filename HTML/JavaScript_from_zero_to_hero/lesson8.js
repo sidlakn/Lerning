@@ -48,5 +48,5 @@ if(i % 2 == 0)
 //for(var i=0; i<arr.length; i++){
 //arr[i] *=2;
 
-  console.log("елемент " + (i + 1) ": " +arr)[i];
+  //console.log("елемент " + (i + 1) ": " +arr)[i];
 //}
