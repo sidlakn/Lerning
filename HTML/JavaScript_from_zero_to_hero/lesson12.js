@@ -46,7 +46,7 @@ document.getElementById('error').innerHTML = fail;
   return false;
 } else {
    alert("всі дані коректно заповненні");
-window.location.replace("http://youtube.com");
+window.location.replace("https://www.youtube.com/results?search_query=" + name  );
  }
 return false;
 }
