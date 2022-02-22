@@ -21,6 +21,7 @@ j -= 100;
 // }
 
 
+
   var x = 100;
   do{
     console.log(x);

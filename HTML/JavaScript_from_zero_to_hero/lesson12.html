@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="text" title ="звичайний текст">Text</p>
+
+<span class="simple-text">Text 1</span>
+<span class="simple-text">Text 2</span>
+<span class="simple-text">Text 3</span>
+
+
+ <form id="main-form" onsubmit="return checkForm(this)" method="post">
+<label for="name">ім'я:</label>
+<input type="text" name="name" placeholder="назва" id="name"><br></br>
+<label for="pass">пароль:</label>
+<input type="password" name="pass" placeholder="пароль" id="pass"><br></br>
+<label for="repass">перевірка пароля:</label>
+<input type="password" name="repass" placeholder="перевірка пароля" id="repass"><br></br>
+<span>стать:</span>
+<input type="radio" name="state" id="male" value="чоловічий">
+<label for="male">чоловічий</label>
+<input type="radio" name="state" id="female" value="жіночий">
+<label for="female">жіночa</label><br></br>
+<div id="error" style="color: red"></div>
+<input type="submit" name="submit" value="готово">
+</form>
+    <script src="lesson12.js"></script>
+  </body>
+</html>
