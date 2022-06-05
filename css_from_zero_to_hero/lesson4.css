@@ -1,0 +1,18 @@
+  /* body {
+  background-color: #7f9ab3;
+  background-image: url('https://showbiz.24tv.ua/resources/photos/news/202201/1853760.jpg?v=1643990173000&w=1200&h=675&fit=cover');
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+#first {
+  color: #3c3e40;
+  background: #7f9ab3 url('https://showbiz.24tv.ua/resources/photos/news/202201/1853760.jpg?v=1643990173000&w=1200&h=675&fit=cover') no-repeat center center;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#second {
+  height: 2000px;
+}

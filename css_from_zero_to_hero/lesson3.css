@@ -1,0 +1,51 @@
+/* p.text:empty{
+
+} */
+
+ p.text:not(:empty){
+color: grey;
+}
+p.text:empty::after{
+content: attr(title);
+color: pink;
+text-decoration: underline;
+}
+
+#some_id::after{
+  content: '123';
+  color: red;
+  text-decoration: line-through;
+}
+
+p.main_link::first-letter{
+  color: green
+}
+
+p:last-of-type {
+text-decoration: line-through;
+}
+
+
+.main_link {
+  color: pink;
+  text-decoration: none;
+}
+
+.main_link:hover {
+  color: blue;
+  text-decoration: line-through;
+  text-decoration-color: white;
+  cursor: pointer;
+
+}
+
+.main_link:visited{
+  text-decoration: underline;
+  color: grey;
+}
+
+/* input:disabled {} */
+ /* input:enabled {} */
+  /* input:required {} */
+input:focus {color: red;}
+input {color: blue;}
